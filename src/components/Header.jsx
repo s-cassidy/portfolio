@@ -7,6 +7,7 @@ export function Header() {
     <div className="flex justify-between">
       <Logo />
       <Navbar />
+      <Links />
     </div>
   )
 }
