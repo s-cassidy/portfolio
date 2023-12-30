@@ -5,7 +5,11 @@ function App() {
 
   return (
     <>
-      <Header />
+      <div className='flex justify-center'>
+        <div className='mt-3 min-w-96 w-3/4'>
+          <Header />
+        </div>
+      </div>
     </>
   )
 }
