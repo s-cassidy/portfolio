@@ -4,7 +4,7 @@ import { Navbar } from "./header/Navbar";
 
 export function Header() {
   return (
-    <div className="flex justify-between">
+    <div className="flex align-middle justify-between">
       <Logo />
       <Navbar />
       <Links />
